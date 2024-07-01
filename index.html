@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hours Worked and Wages</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculate Your Wages</h1>
+        <form id="wageForm">
+            <label for="startTime">Start Time:</label>
+            <input type="number" id="startTime" step="0.01" required>
+            
+            <label for="endTime">End Time:</label>
+            <input type="number" id="endTime" step="0.01" required>
+
+            <label for="hourlyRate">Hourly Rate (£):</label>
+            <input type="number" id="hourlyRate" step="0.01" value="2" required>
+            
+            <button type="submit">Calculate</button>
+        </form>
+    </div>
+    <script src="assets/script.js"></script>
+</body>
+</html>
